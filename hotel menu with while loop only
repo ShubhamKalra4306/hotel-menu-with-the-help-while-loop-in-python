@@ -1,0 +1,70 @@
+total=0
+while True:
+    print("1.cold drinks")
+    print("2.snacks")
+    print("3.prantha")
+    print("4.exit")
+    x=int(input("enter your choice "))
+    if(x==1):
+        while True:
+            print("1.pepsi-40")
+            print("2.dew-50")
+            print("3.exit")
+            n=int(input("enter your choice "))
+            if(n==1):
+                q=int(input("enter your quantity "))
+                total=total+q*40
+                print("your bill is ",total)
+            elif(n==2):
+                q=int(input("enter your quantity "))
+                total=total+q*50
+                print("pay bill is ",total)
+            elif(n==3):
+                break
+    elif(x==2):
+        while True:
+            print("1.samosa-40")
+            print("2.burger-100")
+            print("3.exit")
+            n=int(input("enter your choice "))
+            if(n==1):
+                q=int(input("enter your quantity "))
+                total=total+q*40
+                print("your bill is ",total)
+            elif(n==2):
+                q=int(input("enter your quantity "))
+                total=total+q*100
+                print("pay bill is ",total)
+            elif(n==3):
+                break
+    elif(x==3):
+        while True:
+            print("1.aloo prantha-40")
+            print("2.paneer prantha-60")
+            print("3.exit")
+            n=int(input("enter your choice "))
+            if(n==1):
+                q=int(input("enter your quantity "))
+                total=total+q*40
+                print("your bill is ",total)
+            elif(n==2):
+                q=int(input("enter your quantity "))
+                total=total+q*60
+                print("pay bill is ",total)
+            elif(n==3):
+                break
+    elif(x==4):
+        break
+while True:
+    print("1.add tip")
+    print("2.exit")
+    x=int(input("enter your choice "))
+    if(x==1):
+        n=int(input("enter money "))
+        total=total+n
+        print("your total bill is",total)
+    elif(x==2):
+        break
+    
+            
+
